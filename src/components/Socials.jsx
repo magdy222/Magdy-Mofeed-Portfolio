@@ -23,16 +23,6 @@ const Socials = () => {
           </a>
         </li>
         <li>
-          <a href='https://www.facebook.com/magdy.mofeed.16/' target='_blank'>
-            <ImFacebook/>
-          </a>
-        </li>
-        <li>
-          <a href='https://www.instagram.com/mofeedmagdy/' target='_blank'>
-            <ImInstagram/>
-          </a>
-        </li>
-        <li>
           <a href='https://www.linkedin.com/in/magdy-boshra-8672a8140/' target='_blank'>
             <ImLinkedin/>
           </a>
