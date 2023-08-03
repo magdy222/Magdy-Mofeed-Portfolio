@@ -36,8 +36,8 @@ const Home = () => {
              </p>
              <div className='flex justify-center items-center gap-x-5'>
                <Link to={'/contact'} className='btn mb-[30px] dark:bg-white dark:text-purple-900'>Hire Me</Link>
-               <a href='Magdy Mofeed Boshra CV.pdf'
-                  download='Magdy Mofeed Boshra CV.pdf'>
+               <a href='magdy-mofeed-cv.pdf'
+                  download='magdy-mofeed-cv.pdf'>
                   <button className='btn bg-green-400 text-black mb-[30px] dark:bg-black dark:text-green-400 p-9'>CV <AiOutlineDownload className='text-xl'/> </button>
               </a>
              </div>
