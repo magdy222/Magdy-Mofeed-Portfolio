@@ -49,7 +49,7 @@ const Projects = () => {
                     <button className="absolute top-0 left-0 mt-2 ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6
                       rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                      <a className='flex justify-center items-center gap-x-1'
-                     href='https://luxuria-ecommerce-app-updated-sa7n.vercel.app/' target='_blank' rel="noopener noreferrer">
+                     href='https://luxuria-ecommerce-app-updated.vercel.app/' target='_blank' rel="noopener noreferrer">
                        <FaCode />
                        <p >Visit</p>
                      </a>
@@ -73,7 +73,7 @@ const Projects = () => {
                     <button className="absolute top-0 left-0 mt-2 ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6
                       rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                      <a className='flex justify-center items-center gap-x-1'
-                     href='https://hulu-clone-updated.vercel.app/' target='_blank' rel="noopener noreferrer">
+                     href='https://hulu-clone-updated-4xul.vercel.app/' target='_blank' rel="noopener noreferrer">
                        <FaCode />
                        <p >Visit</p>
                      </a>
