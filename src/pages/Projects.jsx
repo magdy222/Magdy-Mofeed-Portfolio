@@ -1,5 +1,4 @@
 import React,{useContext} from 'react'
-import ImgOne from "../assetes/1.png"
 import Luxuria from "../assetes/luxuria.png"
 import Hulu from "../assetes/hulu.png"
 import Youtube from "../assetes/youtube.png"
