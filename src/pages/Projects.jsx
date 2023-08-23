@@ -25,7 +25,7 @@ const Projects = () => {
       <div
         onMouseEnter={mouseEnterHandler}
         onMouseLeave={mouseLeaverHandler}
-       className='container mx-auto h-full relative pb-10'>
+       className='container mx-auto h-full relative pb-10 scroll-container overflow-y-auto'>
         <div className='flex flex-col lg:flex-row h-full items-center 
           justify-start gap-x-24 text-center lg:text-left pt-24 lg:pt-36 pb-8'>
           <motion.div
@@ -50,7 +50,7 @@ const Projects = () => {
                      <a className='flex justify-center items-center gap-x-1'
                      href='https://luxuria-ecommerce-app-updated-sa7n.vercel.app/' target='_blank' rel="noopener noreferrer">
                        <FaCode />
-                       <p >Visit</p>
+                       <p className=''>Visit</p>
                      </a>
                   </button>
                   <button className="absolute top-0 right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 

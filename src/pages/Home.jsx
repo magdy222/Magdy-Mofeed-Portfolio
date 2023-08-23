@@ -29,10 +29,10 @@ const Home = () => {
          className='flex flex-col justify-center'>
           <div className='w-full pt-32 lg:pt-0 lg:pb-0 lg:w-auto z-10
            lg:absolute flex flex-col justify-center items-center lg:items-start dark:text-gray-300 '>
-             <h1 className='h1 lg:text-6xl px-2'>Frontend Developer</h1>
+             <h1 className='h1 text-4xl sm:text-6xl px-2'>Frontend Developer</h1>
              <p className='text-[26px] lg:text-[36px]
                font-primary mb-4 lg:mb-12'>
-                Ismailia, Egypt
+                ( React )
              </p>
              <div className='flex justify-center items-center gap-x-5'>
                <Link to={'/contact'} className='btn mb-[30px] dark:bg-white dark:text-purple-900'>Hire Me</Link>
@@ -49,15 +49,15 @@ const Home = () => {
                animate={{ scale: 1}} 
                exit={{ scale: 0 }}
                transition={{ease: "linear", duration: 0.6}}
-            className='relative lg:-right-20 overflow-hidden w-[600px] h-[600px] dark:pt-20 '>
+            className='relative lg:-right-20 overflow-hidden w-[600px]  h-[600px] dark:pt-0 dark:sm:pt-20 '>
              <motion.img
                whileHover={{scale: 1.1}}
                transition={{ease: "linear", duration: 0.6}}
-              alt='home-img' className=' w-[640px] h-[640px] dark:w-[640px] dark:h-[570px]' src={dev}/>
+              alt='home-img' className=' w-[640px] h-[340px] sm:h-[640px] 
+              dark:w-[640px] dark:h-[340px] dark:md:h-[470px] dark:sm:h-[570px]' src={dev}/>
              </motion.div> 
           </div>
         </motion.div>
-
       </div>
     </motion.section>
   )
