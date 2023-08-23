@@ -67,8 +67,8 @@ const Contact = () => {
             className='hidden lg:flex bg-[#eef7f9] dark:bg-[#06202A] dark:text-gray-300 absolute 
           left-0 right-0 bottom-0 top-72 -z-10 '></motion.div>
 
-          <div className=' dark:text-gray-300 pt-32 lg:pt-10'>
-            <h1 className='h1 text-6xl mb-8 '>contact me</h1>
+          <div className=' dark:text-gray-300 pt-28 sm:pt-32 lg:pt-10  '>
+            <h1 className='h1 text-4xl sm:text-6xl mb-8 '>contact me</h1>
             <p className='mb-12'>I would love to get your suggestions from you.</p>
             
              <form className='flex flex-col gap-y-5' ref={form} onSubmit={sendEmail}>
@@ -80,11 +80,11 @@ const Contact = () => {
                 </div>
                 <input className='outline-none border-b border-b-primary bg-transparent font-secondary w-full pl-3 placeholder-text-[#757879] '
                  type='text'placeholder='Your message' name='message'/>
-                <button className='btn mb-[30px] mt-5 mx-auto lg:mx-0 self-start  dark:bg-white dark:text-purple-900'
+                <button className='btn mb-0 md:mb-[30px] mt-5 mx-auto lg:mx-0 self-start  dark:bg-white dark:text-purple-900'
                  type="submit" value="Send" >send</button>
                  <ToastContainer className=' top-[100px]'/>
               </form>
-             <div className='px-5 lg:flex lg:gap-5 lg:px-0'>
+             <div className='px-5 lg:flex lg:gap-5 lg:px-0 hidden md:block'>
               <div>
                 <div className='flex justify-start items-center gap-x-1'>
                   <ImWhatsapp/>
@@ -113,7 +113,7 @@ const Contact = () => {
                   animate={{ opacity: 1, y: 0}} 
                   exit={{ opacity: 0 , y: '100%'}}
                   transition={{ease: "linear", duration: 1.2}}>
-            <img alt='contact-img' src={contact} className='lg:flex-1 w-[600px] h-[450px] pb-24 lg:pb-0'/>
+            <img alt='contact-img' src={contact} className='lg:flex-1 w-[400px] sm:w-[600px] h-[300px] sm:h-[500px] pb-24 lg:pb-0'/>
           </motion.div>
         </div>
       </div>

@@ -43,10 +43,10 @@ const About = () => {
                   animate={{ opacity: 1, y: 0}} 
                   exit={{ opacity: 0 , y: '-80%'}}
                   transition={{ease: "linear", duration: 0.6}} 
-              className='flex-1 pt-5 lg:pt-0 pb-24 lg:w-auto
+              className='flex-1 pt-5 md:pt-0 lg:pt-0 pb-24 lg:w-auto
              z-10 flex flex-col justify-center items-center lg:items-center
               lg:justify-center dark:text-gray-300'>
-              <h1 className='h1 pt-5 sm:pt-24 mb-5 text-5xl xl:text-7xl'>About me</h1>
+              <h1 className='h1 pt-5 sm:pt-24 md:pt-10 mb-5 text-5xl xl:text-7xl'>About me</h1>
               <p className='mb-12 max-w-sm '>
               I'm a passionate junior frontend developer with a talent for creating intuitive,
                seamless web experiences. I bring expertise in <b>HTML, CSS, and JavaScript, React.js,Next.js , Tailwind Css, Bootstrap ,  </b> 

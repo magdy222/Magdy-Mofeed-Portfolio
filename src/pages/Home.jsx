@@ -54,7 +54,7 @@ const Home = () => {
                whileHover={{scale: 1.1}}
                transition={{ease: "linear", duration: 0.6}}
               alt='home-img' className=' w-[640px] h-[340px] sm:h-[640px] 
-              dark:w-[640px] dark:h-[340px] dark:md:h-[470px] dark:sm:h-[570px]' src={dev}/>
+              dark:w-[640px] dark:h-[340px] dark:sm:h-[570px]' src={dev}/>
              </motion.div> 
           </div>
         </motion.div>

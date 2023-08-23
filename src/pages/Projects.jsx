@@ -39,194 +39,194 @@ const Projects = () => {
              </h1>
           </motion.div>
           <div className='grid grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-2 px-2'>
-             <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px]
+             <div className='flex justify-center items-center md:items-start max-w-[295px] md:max-w-[360px] lg:max-w-[320px] h-[240px] md:h-[280px] lg:h-[220px]
               bg-accent overflow-hidden relative group'>
                  <img alt='project-img' src={Luxuria} 
                  className='object-cover h-full lg:h-[520px] 
                  hover:scale-110 duration-500 transition-all'/>
-                  <div className="absolute top-20 left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                  <div className="absolute top-20 left-2 sm:left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
                     <button className="absolute top-0 left-0 mt-2 ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6
                       rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                      <a className='flex justify-center items-center gap-x-1'
                      href='https://luxuria-ecommerce-app-updated-sa7n.vercel.app/' target='_blank' rel="noopener noreferrer">
                        <FaCode />
-                       <p className=''>Visit</p>
+                       <p className='hidden sm:block'>Visit</p>
                      </a>
                   </button>
-                  <button className="absolute top-0 right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 
+                  <button className="absolute top-0 right-16 sm:right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-6 sm:px-4 
                   rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <a className='flex justify-center items-center gap-x-1'
                      href='https://github.com/magdy222/luxuria-ecommerce-app-updated' target='_blank' rel="noopener noreferrer">
                        <FaGithub/>
-                       <p>Source</p>
+                       <p className='hidden sm:block'>Source</p>
                      </a>
                   </button>
                 </div>
              </div>
-             <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px]
+             <div className='flex justify-center items-center md:items-start max-w-[295px] md:max-w-[360px] lg:max-w-[320px] h-[240px] md:h-[280px] lg:h-[220px]
               bg-accent overflow-hidden relative group'>
                  <img alt='project-img' src={Hulu} 
                  className='object-cover h-full lg:h-[520px] 
                  hover:scale-110 duration-500 transition-all'/>
-                  <div className="absolute top-20 left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                  <div className="absolute top-20 left-2 sm:left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
                     <button className="absolute top-0 left-0 mt-2 ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6
                       rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                      <a className='flex justify-center items-center gap-x-1'
                      href='https://hulu-clone-updated-4xul.vercel.app/' target='_blank' rel="noopener noreferrer">
                        <FaCode />
-                       <p >Visit</p>
+                       <p className='hidden sm:block'>Visit</p>
                      </a>
                   </button>
-                  <button className="absolute top-0 right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 
+                  <button className="absolute top-0 right-16 sm:right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-6 sm:px-4 
                   rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <a className='flex justify-center items-center gap-x-1'
                      href='https://github.com/magdy222/hulu-clone-updated' target='_blank' rel="noopener noreferrer">
                        <FaGithub/>
-                       <p>Source</p>
+                       <p className='hidden sm:block'>Source</p>
                      </a>
                   </button>
                 </div>
              </div>
-             <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px]
+             <div className='flex justify-center items-center md:items-start max-w-[295px] md:max-w-[360px] lg:max-w-[320px] h-[240px] md:h-[280px] lg:h-[220px]
               bg-accent overflow-hidden relative group'>
                  <img alt='project-img' src={Youtube} 
                  className='object-cover h-full lg:h-[220px] 
                  hover:scale-110 duration-500 transition-all'/>
-                  <div className="absolute top-20 left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                  <div className="absolute top-20 left-2 sm:left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
                     <button className="absolute top-0 left-0 mt-2 ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6
                       rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                      <a className='flex justify-center items-center gap-x-1'
                      href='https://youtube-clone-nu-weld.vercel.app/' target='_blank' rel="noopener noreferrer">
                        <FaCode />
-                       <p >Visit</p>
+                       <p className='hidden sm:block'>Visit</p>
                      </a>
                   </button>
-                  <button className="absolute top-0 right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 
+                  <button className="absolute top-0 right-16 sm:right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-6 sm:px-4 
                   rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <a className='flex justify-center items-center gap-x-1'
                      href='https://github.com/magdy222/youtube-clone' target='_blank' rel="noopener noreferrer">
                        <FaGithub/>
-                       <p>Source</p>
+                       <p className='hidden sm:block'>Source</p>
                      </a>
                   </button>
                 </div>
              </div>
-             <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px]
+             <div className='flex justify-center items-center md:items-start max-w-[295px] md:max-w-[360px] lg:max-w-[320px] h-[240px] md:h-[280px] lg:h-[220px]
               bg-accent overflow-hidden relative group'>
                  <img alt='project-img' src={CLP} 
                  className='object-cover h-full lg:h-[220px] 
                  hover:scale-110 duration-500 transition-all'/>
-                  <div className="absolute top-20 left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                  <div className="absolute top-20 left-2 sm:left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
                     <button className="absolute top-0 left-0 mt-2 ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6
                       rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                      <a className='flex justify-center items-center gap-x-1'
                      href='https://changeable-landing-page.vercel.app/' target='_blank' rel="noopener noreferrer">
                        <FaCode />
-                       <p >Visit</p>
+                       <p className='hidden sm:block'>Visit</p>
                      </a>
                   </button>
-                  <button className="absolute top-0 right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 
+                  <button className="absolute top-0 right-16 sm:right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-6 sm:px-4 
                   rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <a className='flex justify-center items-center gap-x-1'
                      href='https://github.com/magdy222/Changeable-landing-page' target='_blank' rel="noopener noreferrer">
                        <FaGithub/>
-                       <p>Source</p>
+                       <p className='hidden sm:block'>Source</p>
                      </a>
                   </button>
                 </div>
              </div>
-             <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px]
+             <div className='flex justify-center items-center max-w-[295px] md:max-w-[360px] lg:max-w-[320px] h-[240px] md:h-[280px] lg:h-[220px]
               bg-accent overflow-hidden relative group'>
                  <img alt='project-img' src={Landing} 
                  className='object-cover h-full lg:h-[750px] 
                  hover:scale-110 duration-500 transition-all'/>
-                  <div className="absolute top-20 left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                  <div className="absolute top-20 left-2 sm:left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
                     <button className="absolute top-0 left-0 mt-2 ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6
                       rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                      <a className='flex justify-center items-center gap-x-1'
                      href='https://landing-page-ox31pmnjp-magdy222.vercel.app/' target='_blank' rel="noopener noreferrer">
                        <FaCode />
-                       <p >Visit</p>
+                       <p className='hidden sm:block'>Visit</p>
                      </a>
                   </button>
-                  <button className="absolute top-0 right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 
+                  <button className="absolute top-0 right-16 sm:right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-6 sm:px-4 
                   rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <a className='flex justify-center items-center gap-x-1'
                      href='https://github.com/magdy222/landing-page' target='_blank' rel="noopener noreferrer">
                        <FaGithub/>
-                       <p>Source</p>
+                       <p className='hidden sm:block'>Source</p>
                      </a>
                   </button>
                 </div>
              </div>
-             <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px]
+             <div className='flex justify-center items-center md:items-start max-w-[295px] md:max-w-[360px] lg:max-w-[320px] h-[240px] md:h-[280px] lg:h-[220px]
               bg-accent overflow-hidden relative group'>
                  <img alt='project-img' src={Menu} 
                  className='object-cover h-full lg:h-[220px] 
                  hover:scale-110 duration-500 transition-all'/>
-                  <div className="absolute top-20 left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                  <div className="absolute top-20 left-2 sm:left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
                     <button className="absolute top-0 left-0 mt-2 ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6
                       rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                      <a className='flex justify-center items-center gap-x-1'
                      href='https://resturant-menu-lime.vercel.app/' target='_blank' rel="noopener noreferrer">
                        <FaCode />
-                       <p >Visit</p>
+                       <p className='hidden sm:block'>Visit</p>
                      </a>
                   </button>
-                  <button className="absolute top-0 right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 
+                  <button className="absolute top-0 right-16 sm:right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-6 sm:px-4 
                   rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <a className='flex justify-center items-center gap-x-1'
                      href='https://github.com/magdy222/resturant-menu' target='_blank' rel="noopener noreferrer">
                        <FaGithub/>
-                       <p>Source</p>
+                       <p className='hidden sm:block'>Source</p>
                      </a>
                   </button>
                 </div>
              </div>
-             <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px]
+             <div className='flex justify-center items-center md:items-start max-w-[295px] md:max-w-[360px] lg:max-w-[320px] h-[240px] md:h-[280px] lg:h-[220px]
               bg-accent overflow-hidden relative group'>
                  <img alt='project-img' src={Drag} 
                  className='object-cover h-full lg:h-[220px] 
                  hover:scale-110 duration-500 transition-all'/>
-                  <div className="absolute top-20 left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                  <div className="absolute top-20 left-2 sm:left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
                     <button className="absolute top-0 left-0 mt-2 ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6
                       rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                      <a className='flex justify-center items-center gap-x-1'
                      href='https://drag-drop-app-bay.vercel.app/' target='_blank' rel="noopener noreferrer">
                        <FaCode />
-                       <p >Visit</p>
+                       <p className='hidden sm:block'>Visit</p>
                      </a>
                   </button>
-                  <button className="absolute top-0 right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 
+                  <button className="absolute top-0 right-16 sm:right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-6 sm:px-4 
                   rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <a className='flex justify-center items-center gap-x-1'
                      href='https://github.com/magdy222/Drag-drop-app' target='_blank' rel="noopener noreferrer">
                        <FaGithub/>
-                       <p>Source</p>
+                       <p className='hidden sm:block'>Source</p>
                      </a>
                   </button>
                 </div>
              </div>
-             <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px]
+             <div className='flex justify-center items-center md:items-start max-w-[295px] md:max-w-[360px] lg:max-w-[320px] h-[240px] md:h-[280px] lg:h-[220px]
               bg-accent overflow-hidden relative group'>
                  <img alt='project-img' src={Editor} 
                  className='object-cover h-full lg:h-[220px] 
                  hover:scale-110 duration-500 transition-all'/>
-                  <div className="absolute top-20 left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                  <div className="absolute top-20 left-2 sm:left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
                     <button className="absolute top-0 left-0 mt-2 ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6
                       rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                      <a className='flex justify-center items-center gap-x-1'
                      href='https://photo-editor-nu.vercel.app/' target='_blank' rel="noopener noreferrer">
                        <FaCode />
-                       <p >Visit</p>
+                       <p className='hidden sm:block'>Visit</p>
                      </a>
                   </button>
-                  <button className="absolute top-0 right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 
+                  <button className="absolute top-0 right-16 sm:right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-6 sm:px-4 
                   rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <a className='flex justify-center items-center gap-x-1'
                      href='https://github.com/magdy222/photo-editor' target='_blank' rel="noopener noreferrer">
                        <FaGithub/>
-                       <p>Source</p>
+                       <p className='hidden sm:block'>Source</p>
                      </a>
                   </button>
                 </div>
