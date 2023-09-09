@@ -9,6 +9,8 @@ import four from '../assetes/react.png'
 import five from '../assetes/tailwind.png'
 import six from '../assetes/bootstrap.png'
 import seven from '../assetes/next.png'
+import redux from '../assetes/redux.png'
+import mui from '../assetes/mui.png'
 
 const About = () => {
 
@@ -36,6 +38,8 @@ const About = () => {
                    <li><img alt='icon' src={six} className='w-12 h-12 lg:w-32 lg:h-32 '/></li>
                    <li><img alt='icon' src={five} className='w-12 h-12 lg:w-32 lg:h-32 '/></li>
                    <li><img alt='icon' src={seven} className='w-12 h-12 lg:w-32 lg:h-32 '/></li>
+                   <li><img alt='icon' src={mui} className='w-12 h-12 lg:w-32 lg:h-32 '/></li>
+                   <li><img alt='icon' src={redux} className='w-12 h-12 lg:w-32 lg:h-32 '/></li>
                  </ul>
             </div>
             <motion.div 

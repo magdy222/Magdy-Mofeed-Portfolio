@@ -80,10 +80,14 @@ const Contact = () => {
                 </div>
                 <input className='outline-none border-b border-b-primary bg-transparent font-secondary w-full pl-3 placeholder-text-[#757879] '
                  type='text'placeholder='Your message' name='message'/>
-                <button className='btn mb-0 md:mb-[30px] mt-5 mx-auto lg:mx-0 self-start  dark:bg-white dark:text-purple-900'
+                 <div className='flex justify-center items-center gap-5'>
+                <button className='btn mb-0 md:mb-[30px] mt-5 mx-3 lg:mx-0 self-start  dark:bg-white dark:text-purple-900'
                  type="submit" value="Send" >send</button>
+                 <p className='pt-3 sm:pt-0 text-cyan-500'>Fill the form please then click send, your email will be received.</p>
                  <ToastContainer className=' top-[100px]'/>
+                 </div>
               </form>
+              
              <div className='px-5 lg:flex lg:gap-5 lg:px-0 hidden md:block'>
               <div>
                 <div className='flex justify-start items-center gap-x-1'>
