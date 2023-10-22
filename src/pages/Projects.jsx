@@ -4,7 +4,7 @@ import Hulu from "../assetes/hulu.png"
 import Youtube from "../assetes/youtube.png"
 import CLP from "../assetes/changeable.png"
 import Landing from "../assetes/landing.png"
-import Menu from "../assetes/menu.png"
+import NFT from "../assetes/nft.jpng"
 import Dashboard from "../assetes/dashboard.png"
 import Editor from "../assetes/photo-editor.png"
 import {motion} from 'framer-motion'
@@ -186,18 +186,10 @@ const Projects = () => {
              </div>
              <div className='flex justify-center items-center md:items-start max-w-[295px] md:max-w-[360px] lg:max-w-[320px] h-[240px] md:h-[280px] lg:h-[220px]
               bg-accent overflow-hidden relative group'>
-                 <img alt='project-img' src={Menu} 
+                 <img alt='project-img' src={NFT} 
                  className='object-cover h-full lg:h-[220px] 
                  hover:scale-110 duration-500 transition-all'/>
                   <div className="absolute top-20 left-2 sm:left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
-                    <button className="absolute top-0 left-0 mt-2 ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6
-                      rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                     <a className='flex justify-center items-center gap-x-1'
-                     href='https://resturant-menu-lime.vercel.app/' target='_blank' rel="noopener noreferrer">
-                       <FaCode />
-                       <p className='hidden sm:block'>Visit</p>
-                     </a>
-                  </button>
                   <button className="absolute top-0 right-16 sm:right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-6 sm:px-4 
                   rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <a className='flex justify-center items-center gap-x-1'
