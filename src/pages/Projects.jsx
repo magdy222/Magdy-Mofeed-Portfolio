@@ -1,10 +1,10 @@
 import React,{useContext} from 'react'
 import Luxuria from "../assetes/luxuria.png"
-import Hulu from "../assetes/hulu.png"
 import Youtube from "../assetes/youtube.png"
 import CLP from "../assetes/changeable.png"
 import Landing from "../assetes/landing.png"
 import NFT from "../assetes/nft.jpg"
+import Movie from '../assetes/Movie.jpg'
 import Dashboard from "../assetes/dashboard.png"
 import Editor from "../assetes/photo-editor.png"
 import {motion} from 'framer-motion'
@@ -105,29 +105,21 @@ const Projects = () => {
              </div>
              <div className='flex justify-center items-center md:items-start max-w-[295px] md:max-w-[360px] lg:max-w-[320px] h-[240px] md:h-[280px] lg:h-[220px]
               bg-accent overflow-hidden relative group'>
-                 <img alt='project-img' src={Hulu} 
-                 className='object-cover h-full lg:h-[520px] 
+                 <img alt='project-img' src={Movie} 
+                 className='object-cover h-full lg:h-[220px] 
                  hover:scale-110 duration-500 transition-all'/>
-                  <div className="absolute top-20 left-2 sm:left-3 lg:top-40  w-[230px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
-                    <button className="absolute top-0 left-0 mt-2 ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6
-                      rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                     <a className='flex justify-center items-center gap-x-1'
-                     href='https://hulu-clone-updated-4xul.vercel.app/' target='_blank' rel="noopener noreferrer">
-                       <FaCode />
-                       <p className='hidden sm:block'>Visit</p>
-                     </a>
-                  </button>
+                  <div className="absolute top-20 left-2 sm:left-3 lg:top-40  w-[175px] h-full opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
                   <button className="absolute top-0 right-16 sm:right-0 mt-2 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-6 sm:px-4 
                   rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <a className='flex justify-center items-center gap-x-1'
-                     href='https://github.com/magdy222/hulu-clone-updated' target='_blank' rel="noopener noreferrer">
+                     href='https://github.com/magdy222/Movie-app' target='_blank' rel="noopener noreferrer">
                        <FaGithub/>
                        <p className='hidden sm:block'>Source</p>
                      </a>
                   </button>
                 </div>
              </div>
-            
+             
              <div className='flex justify-center items-center md:items-start max-w-[295px] md:max-w-[360px] lg:max-w-[320px] h-[240px] md:h-[280px] lg:h-[220px]
               bg-accent overflow-hidden relative group'>
                  <img alt='project-img' src={CLP} 
